@@ -51,7 +51,7 @@ DEFAULT_CONFIG = {
     "unfollow_per_run": "{{unfollow_per_day}}",
     "like_per_run": "{{like_per_day}}",
     "unlike_per_run": "{{unlike_per_day}}",
-    "time_in_day": 24*60*60,
+    "time_in_day": 24,
 
     "comment_list": [
         ["this", "the", "your"],

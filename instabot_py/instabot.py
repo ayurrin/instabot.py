@@ -81,7 +81,7 @@ class InstaBot:
         self.start_at_m = self.config.get('start_at_m')
         self.end_at_h = self.config.get('end_at_h')
         self.end_at_m = self.config.get('end_at_m')
-        self.time_in_day = self.config.get('time_in_day')
+        self.time_in_day = self.config.get('time_in_day')*60*60
         # ?
         self.window_check_every = self.config.get('window_check_every')
 
